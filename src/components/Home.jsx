@@ -23,7 +23,7 @@ const Home = () => {
           designing) Currently, I am learning and facinated by authorization, tokens and all that good stuff, Enjoying my newly aquired skills MongoDb,Node, still far away being an expert but hey, thats the journey... I’m focused on
           building responsive full-stack web applications.
         </p>
-        <p>Also obsessed with one liner js codewar solutions and occasionally trying to solve a 4kyu...</p>
+        <p className='text-[#8892b0] py-4 max-w-[700px]'>Also obsessed with one liner js codewar solutions and occasionally trying to solve a 4kyu...</p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
             View Work
