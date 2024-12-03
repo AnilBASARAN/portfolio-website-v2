@@ -1,11 +1,13 @@
 import React from 'react';
-import { data } from "../data/data.js";
+import { projectMernData } from "../data/projectMern.data.js";
+import { projectJavaData } from "../data/projectJava.data.js";
 
 
-const Work = () => {
+const Projects = () => {
 
     // projects file
-    const project = data;
+    const projectmern = projectMernData;
+    const projectjava = projectJavaData;
     //setProject(data);
   
   return (
@@ -25,7 +27,7 @@ const Work = () => {
 <div className="grid sm:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4">
           
           {/* Gird Item */}
-          {project.map((item, index) => (
+          {projectmern.map((item, index) => (
   <div
     key={index}
     style={{ backgroundImage: `url(${item.image})` }}
@@ -67,7 +69,7 @@ const Work = () => {
 <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
           
           {/* Gird Item */}
-          {project.map((item, index) => (
+          {projectjava.map((item, index) => (
   <div
     key={index}
     style={{ backgroundImage: `url(${item.image})` }}
@@ -114,4 +116,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;

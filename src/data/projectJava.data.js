@@ -3,31 +3,31 @@ import RealEst from '../assets/projects/realestate.jpg'
 import Plant from '../assets/projects/plantpage.png'
 import Book from '../assets/projects/bookpage.png'
 
-export const data=[
+export const projectJavaData=[
     {
         id:1,
-        name:"React JS Application",
+        name:"Java JS Application",
         image:WorkIm,
         github:"",
         live:"",
     },
     {
         id:2,
-        name:"React JS Application",
+        name:"Java JS Application",
         image:RealEst,
         github:"",
         live:"",
     },
     {
         id:3,
-        name:"React JS Application",
+        name:"Java Sale Page",
         image:Plant,
         github:"",
         live:"",
     },
     {
         id:4,
-        name:"React JS Application",
+        name:"Java JS Application",
         image:Book,
         github:"",
         live:"",
