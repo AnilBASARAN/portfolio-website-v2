@@ -1,36 +1,40 @@
 import WorkIm from '../assets/projects/workImg.jpeg'
 import RealEst from '../assets/projects/realestate.jpg'
 import Plant from '../assets/projects/plantpage.png'
+import Macera from '../assets/projects/maceraJava.png'
+import Mayın from '../assets/projects/mayınJava.png'
 import Book from '../assets/projects/bookpage.png'
+import Turism from '../assets/projects/turizmacenta.png'
+import Veteriner from '../assets/projects/veteriner.png'
 
 export const projectJavaData=[
     {
         id:1,
-        name:"Java JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
+        name:"Java Macera Oyunu",
+        image:Macera,
+        github:"https://github.com/AnilBASARAN/patika-hafta4-macera-oyunu",
+        live:"https://github.com/AnilBASARAN/patika-hafta4-macera-oyunu",
     },
     {
         id:2,
-        name:"Java JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
+        name:"Java Mayın Oyunu",
+        image:Mayın,
+        github:"https://github.com/AnilBASARAN/patika-hafta3-mayin-tarlasi",
+        live:"https://github.com/AnilBASARAN/patika-hafta3-mayin-tarlasi",
     },
     {
         id:3,
         name:"Java Sale Page",
-        image:Plant,
-        github:"",
-        live:"",
+        image:Turism,
+        github:"https://github.com/AnilBASARAN/patika-hafta8-turizm-bitirme-odevi",
+        live:"https://github.com/AnilBASARAN/patika-hafta8-turizm-bitirme-odevi",
     },
     {
         id:4,
-        name:"Java JS Application",
-        image:Book,
-        github:"",
-        live:"",
+        name:"Veteriner Java Uygulaması",
+        image:Veteriner,
+        github:"https://github.com/AnilBASARAN/patika-hafta13-veteriner-projesi",
+        live:"https://github.com/AnilBASARAN/patika-hafta13-veteriner-projesi",
     },
 
 
