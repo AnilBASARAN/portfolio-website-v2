@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Space from "./components/Space";
 
 
 function App() {
@@ -14,9 +15,12 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Space />
       <Projects />
+      <Space />
       <Codewars />
-      <Contact />
+      <Space />
+      
     </div>
   );
 }
