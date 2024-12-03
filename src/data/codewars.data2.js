@@ -1,11 +1,6 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
-import Plant from '../assets/projects/plantpage.png'
-import Book from '../assets/projects/bookpage.png'
-import createphonenumber from '../assets/codewars/codewars-6kyu-Create-Phone-Number.png'
-import findtheodd from '../assets/codewars/codewars-6kyu-Find-the-odd-int.png'
+
 import arraydif from '../assets/codewars2/codewars6-6kyu-Array-diff.png'
-import findtheunique from '../assets/codewars2/codewars-6 kyu-Find the unique number.jpg'
+import findtheunique from '../assets/codewars2/codewars-6-kyu-Find-the-unique-number.jpg'
 import multiple3and5 from '../assets/codewars2/multiple3and5.jpg'
 import highestscore from '../assets/codewars2/codewars-6kyu-Highest-Scoring-Word.png'
 
