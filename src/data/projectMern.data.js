@@ -24,7 +24,7 @@ export const projectMernData=[
         name:"Plant Sale Page",
         image:Plant,
         github:"https://github.com/AnilBASARAN/capstone",
-        live:"https://plantsforsale.netlify.app",
+        live:"https://674eaa80b63332e880843ef3--plantsforsale.netlify.app/plants",
     },
     {
         id:4,
