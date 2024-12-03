@@ -1,0 +1,43 @@
+import WorkIm from '../assets/projects/workImg.jpeg'
+import RealEst from '../assets/projects/realestate.jpg'
+import Plant from '../assets/projects/plantpage.png'
+import Book from '../assets/projects/bookpage.png'
+import createphonenumber from '../assets/codewars/codewars-6kyu-Create-Phone-Number.png'
+import findtheodd from '../assets/codewars/codewars-6kyu-Find-the-odd-int.png'
+import arraydif from '../assets/codewars2/codewars6-6kyu-Array-diff.png'
+import findtheunique from '../assets/codewars2/codewars-6 kyu-Find the unique number.jpg'
+import multiple3and5 from '../assets/codewars2/multiple3and5.jpg'
+import highestscore from '../assets/codewars2/codewars-6kyu-Highest-Scoring-Word.png'
+
+export const codewarsdata2=[
+    {
+        id:1,
+        name:"Array dif",
+        image:arraydif,
+        github:"https://github.com/AnilBASARAN/codewars6-6kyu-Array-diff",
+        live:"https://github.com/AnilBASARAN/codewars6-6kyu-Array-diff/blob/main/codewars6-6kyu-Array-diff.png",
+    },
+    {
+        id:2,
+        name:"React JS Application",
+        image:findtheunique,
+        github:"https://github.com/AnilBASARAN/codewars-6-kyu-Find-the-unique-number",
+        live:"https://github.com/AnilBASARAN/codewars-6-kyu-Find-the-unique-number/blob/main/codewars-6%20kyu-Find%20the%20unique%20number.jpg",
+    },
+    {
+        id:3,
+        name:"React JS Application",
+        image:multiple3and5,
+        github:"https://github.com/AnilBASARAN/codewars-6-kyu-Multiples-of-3-or-5",
+        live:"https://github.com/AnilBASARAN/codewars-6-kyu-Multiples-of-3-or-5/blob/main/multiple3and5.jpg",
+    },
+    {
+        id:4,
+        name:"React JS Application",
+        image:highestscore,
+        github:"https://github.com/AnilBASARAN/codewars-6kyu-Highest-Scoring-Word",
+        live:"https://github.com/AnilBASARAN/codewars-6kyu-Highest-Scoring-Word/blob/main/codewars-6kyu-Highest-Scoring-Word.png",
+    },
+
+
+]

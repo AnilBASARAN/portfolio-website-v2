@@ -1,11 +1,13 @@
 import React from 'react';
-import { data } from "../data/data.js";
+import { codewarsdata } from "../data/codewars.data.js";
+import { codewarsdata2 } from "../data/codewars.data2.js";
 
 
 const Work = () => {
 
     // projects file
-    const project = data;
+    const project = codewarsdata;
+    const project2 = codewarsdata2;
     //setProject(data);
   
   return (
@@ -67,7 +69,7 @@ const Work = () => {
 <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
           
           {/* Gird Item */}
-          {project.map((item, index) => (
+          {project2.map((item, index) => (
   <div
     key={index}
     style={{ backgroundImage: `url(${item.image})` }}
