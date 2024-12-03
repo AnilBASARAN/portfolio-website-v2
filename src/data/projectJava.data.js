@@ -1,9 +1,6 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
-import Plant from '../assets/projects/plantpage.png'
+
 import Macera from '../assets/projects/maceraJava.png'
 import Mayın from '../assets/projects/mayınJava.png'
-import Book from '../assets/projects/bookpage.png'
 import Turism from '../assets/projects/turizmacenta.png'
 import Veteriner from '../assets/projects/veteriner.png'
 

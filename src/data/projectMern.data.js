@@ -1,5 +1,4 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+
 import Plant from '../assets/projects/plantpage.png'
 import Book from '../assets/projects/bookpage.png'
 import Nasa from '../assets/projects/nasa.png'
