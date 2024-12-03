@@ -13,7 +13,7 @@ const Home = () => {
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           Anil Basaran
         </h1>
-        <img  className="h-[200px] w-[100px] m-4 rounded-full object-cover" src={Logo} alt='Logo Image' style={{ width: '200px' }} />
+        <img  className="h-[200px] w-[100px] m-4 rounded-full object-cover" src={Logo} alt='foto' style={{ width: '200px' }} />
         </div>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
           I'm a Full Stack Developer.
