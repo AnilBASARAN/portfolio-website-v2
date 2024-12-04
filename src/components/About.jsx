@@ -13,15 +13,18 @@ const About = () => {
           <div></div>
           </div>
           <div className='max-w-[1000px] text-left  w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='flex items-end sm:text-center text-xl sm:text-4xl font-bold'>
+            <div className=' text-xl sm:text-4xl font-bold'>
               <p>Hi. I'm Anil Basaran, nice to meet you. Please take a look around.</p>
             </div>
-            <div className='flex  justify-center sm:text-center'>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
+            <div className='flex flex-col gap-2 items-center  justify-center sm:text-center'>
+              <p className='text-xl'>Graduated from Yildiz Technical University.</p>
+              <p className='text-green-400'>As a Survey Engineer</p>
+              <p>Worked on several diciplines including building <span className='text-sm text-pink-600'>bullet train paths</span>, highways,<span className='text-xl text-red-400'>and structures  related</span></p> 
+              <p>Also worked in constructring. Building <span className=' text-cyan-600 font-semibold text-xl'>Skyscrapers</span>...Found out Survey engineering not that glamarous.</p>
+              <p> Ended up being a Co-Founder of a DropShipping company and supervise and run it for 7 years.</p>
+                <p className='text-green-400'>I tried my first <span className=' text-cyan-600 font-semibold text-3xl'>"Hello World"</span> and ended up loving it </p>
+                <p>Learn or tried to learn how to code in order to automate it,After harsh regulatory changes we ended up closing shop and here we are, </p>  
+              <p className='text-green-700'>I am finally found the time and the energy and motivation to do it full time.</p>
             </div>
           </div>
       </div>
