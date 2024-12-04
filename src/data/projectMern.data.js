@@ -17,7 +17,7 @@ export const projectMernData=[
         name:"Nasa image api",
         image:Nasa,
         github:"https://github.com/AnilBASARAN/Nasa-imagery-last",
-        live:"",
+        live:"https://anilbasaran.github.io/nasa-image-api/",
     },
     {
         id:3,
