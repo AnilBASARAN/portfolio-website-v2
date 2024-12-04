@@ -19,16 +19,16 @@ const Home = () => {
           I'm a Full Stack Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I started with Java and Spring... Ended up learning Node.js and all thats come with it.I’m a full-stack developer specializing in building (and occasionally
-          designing) Currently, I am learning and facinated by authorization, tokens and all that good stuff, Enjoying my newly aquired skills MongoDb,Node, still far away being an expert but hey, thats the journey... I’m focused on
+          I started my journey learning Java , Spring for the backend... Ended up learning Node.js Express and all that are come with it.I’m a self proclaimed full-stack developer specializing in copying and pasting (and occasionally
+          writing inspiring one liners) Currently, I am learning and facinated by Authorization, Tokens and all that good stuff, Enjoying my newly aquired knowledge MongoDb,Node, still far away being an expert but hey, thats the journey... I’m focused on
           building responsive full-stack web applications.
         </p>
         <p className='text-pink-600 text-sm'>Almost 40 years of experience.</p>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>Also obsessed with one liner js codewar solutions and occasionally trying to solve a 4kyu...</p>
+        <p className='text-[#8892b0] py-4 max-w-[700px]'>Also playing with Codewars one liners , LeetCode solutions and occasionally trying to solve a 4kyu...</p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
             View Work
-            <span className='group-hover:rotate-90 duration-300'>
+            <span className="group-hover:rotate-90 group-hover:scale-150 duration-300 transform text-xl">
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
           </button>
