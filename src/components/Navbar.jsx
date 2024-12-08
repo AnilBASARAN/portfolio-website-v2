@@ -40,6 +40,13 @@ const Navbar = () => {
             Work
           </Link>
         </li>
+
+        <li>
+  <a href="https://drive.google.com/file/d/1Y_ANXWkttacQ__HgIJ2TdmfkvB0V75s3/view" target="_blank" rel="noopener noreferrer">
+    C.V.
+  </a>
+</li>
+
         
       </ul>
 
