@@ -25,7 +25,8 @@ function App() {
       <Space />
       <Codewars />
       <Space />
-      
+      <Space />
+      <Space />
     </div>
   );
 }
