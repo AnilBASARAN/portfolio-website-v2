@@ -16,10 +16,10 @@ const Home = () => {
         <img  className="h-[200px] w-[100px] m-4 rounded-full object-cover" src={Logo} alt='foto' style={{ width: '200px' }} />
         </div>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I'm a Full Stack Developer.
+          I'm Front-End Developer focused on React.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I started my journey learning Java , Spring for the backend... Ended up learning Node.js Express and all that are come with it.I’m a self proclaimed full-stack developer specializing in copying and pasting (and occasionally
+          I graduated from Patika Full Stack Web Development Bootcamp. I started my journey learning Java , Spring for the backend... Ended up learning Node.js Express and all that are come with it.I’m a self proclaimed full-stack developer specializing in copying and pasting (and occasionally
           writing inspiring one liners) Currently, I am learning and facinated by Authorization, Tokens and all that good stuff, Enjoying my newly aquired knowledge MongoDb,Node, still far away being an expert but hey, thats the journey... I’m focused on
           building responsive full-stack web applications.
         </p>
