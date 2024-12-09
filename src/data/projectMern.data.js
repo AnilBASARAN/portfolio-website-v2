@@ -9,7 +9,7 @@ export const projectMernData=[
         id:1,
         name:"FullStack Mern App",
         image:CodewarPage,
-        github:"",
+        github:"https://github.com/AnilBASARAN/mernstack-product-tracker",
         live:"https://p-tracker-v2.onrender.com",
     },
     {
