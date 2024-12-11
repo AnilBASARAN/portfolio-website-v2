@@ -83,16 +83,18 @@ const Projects = () => {
       </span>
       <div className="pt-8 text-center ">
         {/* eslint-disable-next-line */}
-        <a href={item.github} target="_blank">
+        { item.github && <a href={item.github} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
           >
             Code
           </button>
-        </a>
+        </a>}
         {/* eslint-disable-next-line */}
-        <a href={item.live} target="_blank">
+        {/* I ADDED HERE item.live && to make sure if there is no live link it wont show the LIVE BUTTON */}
+        { item.live &&
+          <a href={item.live} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -100,6 +102,7 @@ const Projects = () => {
             Live
           </button>
         </a>
+        }
       </div>
     </div>
   </div>

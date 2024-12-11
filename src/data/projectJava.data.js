@@ -10,28 +10,28 @@ export const projectJavaData=[
         name:"Java Macera Oyunu",
         image:Macera,
         github:"https://github.com/AnilBASARAN/patika-hafta4-macera-oyunu",
-        live:"https://github.com/AnilBASARAN/patika-hafta4-macera-oyunu",
+        live:"",
     },
     {
         id:2,
         name:"Java Mayın Oyunu",
         image:Mayın,
         github:"https://github.com/AnilBASARAN/patika-hafta3-mayin-tarlasi",
-        live:"https://github.com/AnilBASARAN/patika-hafta3-mayin-tarlasi",
+        live:"",
     },
     {
         id:3,
         name:"Java Sale Page",
         image:Turism,
         github:"https://github.com/AnilBASARAN/patika-hafta8-turizm-bitirme-odevi",
-        live:"https://github.com/AnilBASARAN/patika-hafta8-turizm-bitirme-odevi",
+        live:"",
     },
     {
         id:4,
         name:"Veteriner Java Uygulaması",
         image:Veteriner,
         github:"https://github.com/AnilBASARAN/patika-hafta13-veteriner-projesi",
-        live:"https://github.com/AnilBASARAN/patika-hafta13-veteriner-projesi",
+        live:"",
     },
 
 
