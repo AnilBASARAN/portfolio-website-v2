@@ -94,7 +94,7 @@ const Projects = () => {
         {/* eslint-disable-next-line */}
         {/* I ADDED HERE item.live && to make sure if there is no live link it wont show the LIVE BUTTON */}
         { item.live &&
-          <a href={item.live} target="_blank">
+          <a href="your-link" target="_blank" rel="noreferrer">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
