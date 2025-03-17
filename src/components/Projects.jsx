@@ -18,7 +18,7 @@ const Projects = () => {
             Projects
           </p>
           <div className='flex flex-col md:justify-between md:flex-row '>
-          <p className='py-6'>* Projects created with Mern Stack</p>
+          <p className='py-6'>* Wait 45-60 seconds to fullstack app opens due to server ping</p>
           <p className='py-6'>* Projects created with Java Full Stack</p>
 
           </div>
