@@ -19,7 +19,7 @@ const Skills = () => {
       {/* Container */}
       <div className='max-w-[1000px]   flex  flex-col justify-center w-full h-full'>
           <div className='mb-12'>
-              <p className='text-4xl font-bold  inline border-b-4 border-pink-600 '>Stacks that I worked with</p>
+              <p className='text-4xl font-bold  inline border-b-4 border-pink-600 '>Technologies that I worked with</p>
               
           </div>
           <div className='flex justify-between'>
