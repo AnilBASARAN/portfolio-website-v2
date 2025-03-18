@@ -4,7 +4,7 @@ import SportsCenter from '../assets/projects/sportCenter.png'
 import RandomPerson from '../assets/projects/randomPerson.png'
 import vetManagement from '../assets/projects/vetManagement.png'
 
-export const projectJavaData=[
+export const projectReactData=[
     {
         id:1,
         name:"Starwars",
