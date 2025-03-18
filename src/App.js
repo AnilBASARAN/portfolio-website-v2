@@ -17,6 +17,7 @@ function App() {
       <Home />
       <Space />
       <Github/>
+      <Space />
       <About />
       <Space />
       <Skills />
@@ -25,9 +26,7 @@ function App() {
       <Space />
       <Codewars />
       <Space />
-      <Space />
-      <Space />
-      <Space />
+ 
     </div>
   );
 }
