@@ -1,13 +1,13 @@
 import React from 'react';
 import { projectMernData } from "../data/projectMern.data.js";
-import { projectJavaData as projectReact } from "../data/projectJava.data.js";
+import { projectReactData } from "../data/projectJava.data.js";
 
 
 const Projects = () => {
 
     // projects file
     const projectmern = projectMernData;
-    const projectjava = projectReact;
+    const projectReact = projectReactData;
     //setProject(data);
   
   return (
