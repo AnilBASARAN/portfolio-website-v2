@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Space from "./components/Space";
 import SpaceNav from "./components/SpaceNav";
 import Github from "./components/Github";
+import Work from "./components/Work";
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
       <About />
       <Space />
       <Skills />
+      <Space />
+      <Work />
       <Space />
       <Projects />
       <Space />
