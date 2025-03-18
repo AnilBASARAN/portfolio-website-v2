@@ -93,7 +93,18 @@ const Navbar = () => {
     target='_blank'  // Opens the link in a new tab
     rel='noopener noreferrer'  // Adds security when opening a new tab
   >
-    C.V.
+    C.V.Survey Engineer
+  </a>
+</li>
+
+<li className='py-6 text-4xl text-center'>
+  <a
+    onClick={handleClick}
+    href="https://drive.google.com/file/d/1Bmr7d6GNUk6CzKtUyv6z729k19MXrGa_/view"
+    target='_blank'  // Opens the link in a new tab
+    rel='noopener noreferrer'  // Adds security when opening a new tab
+  >
+    C.V.Developer
   </a>
 </li>
 
