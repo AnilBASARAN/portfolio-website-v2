@@ -43,7 +43,12 @@ const Navbar = () => {
 
         <li>
   <a href="https://drive.google.com/file/d/1Y_ANXWkttacQ__HgIJ2TdmfkvB0V75s3/view" target="_blank" rel="noopener noreferrer">
-    C.V.
+    C.V. Survey Engineer
+  </a>
+</li>
+        <li>
+  <a href="https://drive.google.com/file/d/1Bmr7d6GNUk6CzKtUyv6z729k19MXrGa_/view" target="_blank" rel="noopener noreferrer">
+    C.V. Developer
   </a>
 </li>
 
