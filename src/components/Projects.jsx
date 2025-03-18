@@ -73,7 +73,7 @@ const Projects = () => {
 <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
           
           {/* Gird Item */}
-          {projectjava.map((item, index) => (
+          {projectReact.map((item, index) => (
   <div
     key={index}
     style={{ backgroundImage: `url(${item.image})` }}
@@ -98,7 +98,7 @@ const Projects = () => {
         {/* eslint-disable-next-line */}
         {/* I ADDED HERE item.live && to make sure if there is no live link it wont show the LIVE BUTTON */}
         { item.live &&
-          <a href="your-link" target="_blank" rel="noreferrer">
+          <a href={item.live} target="_blank" rel="noreferrer">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
