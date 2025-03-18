@@ -1,13 +1,13 @@
 import React from 'react';
 import { projectMernData } from "../data/projectMern.data.js";
-import { projectJavaData } from "../data/projectJava.data.js";
+import { projectJavaData as projectReact } from "../data/projectJava.data.js";
 
 
 const Projects = () => {
 
     // projects file
     const projectmern = projectMernData;
-    const projectjava = projectJavaData;
+    const projectjava = projectReact;
     //setProject(data);
   
   return (
@@ -17,9 +17,13 @@ const Projects = () => {
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
             Projects
           </p>
-          <div className='flex flex-col md:justify-between md:flex-row '>
-          <p className='py-6'>* Wait 45-60 seconds to fullstack app opens due to server ping</p>
-          <p className='py-6'>* Projects created with Java Full Stack</p>
+          <div className='flex flex-col md:justify-between md:flex-col '>
+          <p className='py-6'>* NOTE: For todo app, Opening the app is not instant</p>
+          <p className='py-6'>* Because it uses a live server it takes 45-60 seconds to open</p>
+          <p className='py-6'>* You need to be logged in to see the plantApp,</p>
+          <p className='py-6'>* If you dont want to create an account,</p>
+          <p className='py-6'>*  use ID = "asdasd" and password = "123123" </p>
+          
 
           </div>
         </div>
