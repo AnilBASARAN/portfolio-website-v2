@@ -1,6 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import Logo from '../assets/logo.png';
+import { Link } from 'react-scroll';
 const Home = () => {
   return (
     <div name='home' className='w-full bg-[#0a192f]'>
@@ -26,12 +27,14 @@ const Home = () => {
         <p className='text-pink-600 text-sm'>Almost 40 years of experience.</p>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>Also playing with Codewars one liners , LeetCode solutions and occasionally trying to solve a 4kyu...</p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-            View Work
-            <span className="group-hover:rotate-90 group-hover:scale-150 duration-300 transform text-xl">
-              <HiArrowNarrowRight className='ml-3 ' />
-            </span>
-          </button>
+        <Link to="work" smooth={true} duration={500}>
+  <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+    View Work
+    <span className="group-hover:rotate-90 group-hover:scale-150 duration-300 transform text-xl">
+      <HiArrowNarrowRight className="ml-3" />
+    </span>
+  </button>
+</Link>
         </div>
       </div>
       
