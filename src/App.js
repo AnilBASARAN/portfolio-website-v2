@@ -8,6 +8,7 @@ import Space from "./components/Space";
 import SpaceNav from "./components/SpaceNav";
 import Github from "./components/Github";
 import Work from "./components/Work";
+import References from "./components/References";
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
       <Space />
       <Codewars />
       <Space />
- 
+      <References />
     </div>
   );
 }
