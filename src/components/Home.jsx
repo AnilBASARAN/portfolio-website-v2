@@ -20,12 +20,20 @@ const Home = () => {
           I'm Front-End Developer focused on React.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I graduated from Patika Full Stack Web Development Bootcamp. I started my journey learning Java , Spring for the backend... Ended up learning Node.js Express and all that are come with it.I’m a self proclaimed full-stack developer specializing in copying and pasting (and occasionally
-          writing inspiring one liners) Currently, I am learning and facinated by Authorization, Tokens and all that good stuff, Enjoying my newly aquired knowledge MongoDb,Node, still far away being an expert but hey, thats the journey... I’m focused on
-          building responsive full-stack web applications.
-        </p>
-        <p className='text-pink-600 text-sm'>Almost 40 years of experience.</p>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>Also playing with Codewars one liners , LeetCode solutions and occasionally trying to solve a 4kyu...</p>
+I started my career as a Survey Engineer, working on large-scale projects like bullet train paths, highways, and skyscrapers. But curiosity led me elsewhere. After nearly a decade in construction, I co-founded an e-commerce company, ran it successfully for over seven years, and handled everything from Amazon operations to supplier management.
+</p>
+
+<p className='text-[#8892b0] py-4 max-w-[700px]'>
+That’s where my journey into coding began. I built our company’s website, fell in love with web development, and fully immersed myself in programming. From Java and Spring to Node.js, MongoDB, and React, I kept exploring—until I realized frontend development was my real passion. I even learned Go just to keep up with the backend stack at the startup where I interned.
+</p>
+<p className='text-[#8892b0] py-4 max-w-[700px]'>
+Now, I focus on crafting clean, responsive, and scalable web applications. I specialize in React, TypeScript, and modern web technologies, constantly pushing myself to learn, iterate, and build better experiences.
+
+When I'm not coding, you’ll find me lifting weights, experimenting in the kitchen, or solving tricky Codewars and LeetCode challenges.
+</p>
+        
+        <p className='text-pink-600 text-sm mb-4'>Almost 40 years of experience.</p>
+   
         <div>
         <Link to="work" smooth={true} duration={500}>
   <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
