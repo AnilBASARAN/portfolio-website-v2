@@ -1,5 +1,4 @@
 import React from 'react'
-import  brolyzFoto  from "../assets/work/brolyzMeet.png";
 const References = () => {
   return (
     <div name='work' className='w-full  text-gray-300 bg-[#0a192f]'>
