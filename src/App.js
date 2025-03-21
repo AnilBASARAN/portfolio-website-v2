@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Space from "./components/Space";
-import SpaceNav from "./components/SpaceNav";
 import Github from "./components/Github";
 import Work from "./components/Work";
 import References from "./components/References";
@@ -14,7 +13,6 @@ import References from "./components/References";
 function App() {
   return (
     <div>
-      <SpaceNav />
       <Navbar />
       <Home />
       <Space />
