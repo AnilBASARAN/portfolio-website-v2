@@ -45,6 +45,11 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
+        <li>
+          <Link to='references' smooth={true} duration={500}>
+            References
+          </Link>
+        </li>
 
         <li>
   <a href="https://drive.google.com/file/d/1Y_ANXWkttacQ__HgIJ2TdmfkvB0V75s3/view" target="_blank" rel="noopener noreferrer">
@@ -94,6 +99,11 @@ const Navbar = () => {
   <li className='py-6 text-4xl text-center'>
     <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
       Projects
+    </Link>
+  </li>
+  <li className='py-6 text-4xl text-center'>
+    <Link onClick={handleClick} to='references' smooth={true} duration={500}>
+      References
     </Link>
   </li>
   <li className='py-6 text-4xl text-center'>
