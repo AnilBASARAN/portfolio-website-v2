@@ -99,37 +99,47 @@ const Navbar = () => {
     nav ? 'translate-x-0' : '-translate-x-full'
   } absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center transition-transform duration-500`}
 >
-  <li className='py-6 text-4xl text-center'>
+  <li className='py-6 text-3xl text-center'>
     <Link onClick={handleClick} to='home' smooth={true} duration={500}>
       Home
     </Link>
   </li>
-  <li className='py-6 text-4xl text-center'>
+  <li className='py-6 text-3xl text-center'>
     <Link onClick={handleClick} to='about' smooth={true} duration={500}>
       About
     </Link>
   </li>
-  <li className='py-6 text-4xl text-center'>
+  <li className='py-6 text-3xl text-center'>
     <Link onClick={handleClick} to='work' smooth={true} duration={500}>
       Work
     </Link>
   </li>
-  <li className='py-6 text-4xl text-center'>
+  <li className='py-6 text-3xl text-center'>
     <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
       Skills
     </Link>
   </li>
-  <li className='py-6 text-4xl text-center'>
+  <li className='py-6 text-3xl text-center'>
     <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
       Projects
     </Link>
   </li>
-  <li className='py-6 text-4xl text-center'>
+  <li className='py-6 text-3xl text-center'>
     <Link onClick={handleClick} to='references' smooth={true} duration={500}>
       References
     </Link>
   </li>
-  <li className='py-6 text-4xl text-center'>
+  <li className='py-6 text-3xl text-center'>
+  <a
+    onClick={handleClick}
+    href="https://drive.google.com/file/d/1Qz1t9Y19bejJoCKKa7iS6Xq0hHERW-Rt/view"
+    target='_blank'  // Opens the link in a new tab
+    rel='noopener noreferrer'  // Adds security when opening a new tab
+  >
+    C.V.Developer
+  </a>
+</li>
+  <li className='py-6 text-3xl text-center'>
   <a
     onClick={handleClick}
     href='https://drive.google.com/file/d/1Y_ANXWkttacQ__HgIJ2TdmfkvB0V75s3/view'
@@ -140,16 +150,7 @@ const Navbar = () => {
   </a>
 </li>
 
-<li className='py-6 text-4xl text-center'>
-  <a
-    onClick={handleClick}
-    href="https://drive.google.com/file/d/1Qz1t9Y19bejJoCKKa7iS6Xq0hHERW-Rt/view"
-    target='_blank'  // Opens the link in a new tab
-    rel='noopener noreferrer'  // Adds security when opening a new tab
-  >
-    C.V.Developer
-  </a>
-</li>
+
 
 </ul>
 
