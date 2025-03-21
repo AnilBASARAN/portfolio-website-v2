@@ -69,6 +69,29 @@ const Navbar = () => {
 <div onClick={handleClick} className='md:hidden z-10 absolute top-6 right-6'>
   {!nav ? <FaBars /> : <FaTimes />}
 </div>
+<div className='md:hidden z-10 absolute top-6 left-6'>
+
+
+  <ul className=' flex '>
+    <li className='w-[50px] h-[50px] flex justify-between items-center  rounded-md bg-blue-600'>
+      <a className='flex justify-between items-center w-full hover:text-gray-100 text-gray-300' href='https://www.linkedin.com/in/anılbaşaran/'>
+      <FaLinkedin size={30} />
+      </a>
+    </li>
+    <li className='w-[50px] h-[50px] flex justify-between items-center rounded-md  bg-[#333333]'>
+      <a className='flex justify-between items-center w-full hover:text-gray-100 text-gray-300' href='https://github.com/AnilBASARAN'>
+      <FaGithub size={30} />
+      </a>
+    </li>
+    <li className='w-[50px] h-[50px] flex justify-between items-center rounded-md bg-[#6fc2b0]'>
+      <a className='flex justify-between items-center w-full hover:text-gray-100 text-gray-300' href='https://x.com/nlbsrn'>
+       <FaTwitter size={30} />
+      </a>
+    </li>
+  </ul>
+
+
+</div>
 
 {/* Mobile menu */}
 <ul
