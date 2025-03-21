@@ -67,12 +67,12 @@ const Navbar = () => {
 
 {/* Hamburger */}
 <div onClick={handleClick} className='md:hidden z-10 absolute top-6 right-6'>
-  {!nav ? <FaBars size={50} /> : <FaTimes />}
+  {!nav ? <FaBars size={50} /> : <FaTimes size={50} />}
 </div>
 <div className='md:hidden z-10 absolute top-6 left-6'>
 
 
-  <ul className=' flex '>
+  {!nav && (<ul className=' flex '>
     <li className='w-[50px] h-[50px] flex justify-between items-center  rounded-md bg-blue-600'>
       <a className='flex justify-between items-center w-full hover:text-gray-100 text-gray-300' href='https://www.linkedin.com/in/anılbaşaran/'>
       <FaLinkedin size={30} />
@@ -88,7 +88,7 @@ const Navbar = () => {
        <FaTwitter size={30} />
       </a>
     </li>
-  </ul>
+  </ul>)}
 
 
 </div>
