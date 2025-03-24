@@ -15,9 +15,13 @@ const Work = () => {
             Internship at VestraDAO
           </p>
           <div className='flex flex-col md:flex-col '>
-          <p className='py-6'>-Worked on tasks primarily in Brolyz, </p>
-          <p className='py-6'>-Both it's back office and it's web application as a Frontend Developer,</p>
-          <p className='py-6'>At the time I was there ,I focused on maintaining, updating, and enhancing existing web applications using modern frontend technologies.</p>
+          <p className='py-6'>I Worked on tasks primarily in Brolyz, </p>
+          <p className='py-6'>I Developed a deeper understanding of frontend architecture, reusable component design, and performance optimizations in React-based applications., </p>
+          <p className='py-6'>I Learned how to work within an agile development process, handling code reviews, pull requests, and version control best practices., </p>
+          <p className='py-6'> Gained hands-on experience with state management, API integration, and component optimization, refining my problem-solving and debugging skills., </p>
+          <p className='py-6'>I helped implement new features and resolved critical UI bugs, enhancing the stability and functionality of the platform, </p>
+          <p className='py-6'>Also I collaborated closely with backend developers and designers to build responsive, user-friendly interfaces, improving the overall user experience.,</p>
+          
          
           
 
