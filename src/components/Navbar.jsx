@@ -57,7 +57,7 @@ const Navbar = () => {
   </a>
 </li> */}
 <li>
-  <a href="https://drive.google.com/file/d/1pCnKV66wuZe6m-nhKhYXHT8AJG1fnCyg/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+  <a  href="https://drive.google.com/file/d/1pCnKV66wuZe6m-nhKhYXHT8AJG1fnCyg/view?usp=sharing" target="_blank" rel="noopener noreferrer">
     CV
   </a>
 </li>
@@ -74,17 +74,17 @@ const Navbar = () => {
 
   {!nav && (<ul className=' flex '>
     <li className='w-[50px] h-[50px] flex justify-between items-center mr-1 rounded-md bg-blue-600'>
-      <a className='flex justify-between items-center w-full hover:text-gray-100 text-gray-300' href='https://www.linkedin.com/in/anılbaşaran/'>
+      <a target="_blank" rel="noopener noreferrer" className='flex justify-between items-center w-full hover:text-gray-100 text-gray-300' href='https://www.linkedin.com/in/anılbaşaran/'>
       <FaLinkedin size={30} />
       </a>
     </li>
     <li className='w-[50px] h-[50px] flex justify-between items-center rounded-md mr-1  bg-[#333333]'>
-      <a className='flex justify-between items-center w-full hover:text-gray-100 text-gray-300' href='https://github.com/AnilBASARAN'>
+      <a target="_blank" rel="noopener noreferrer" className='flex justify-between items-center w-full hover:text-gray-100 text-gray-300' href='https://github.com/AnilBASARAN'>
       <FaGithub size={30} />
       </a>
     </li>
     <li className='w-[50px] h-[50px] flex justify-between items-center rounded-md bg-[#6fc2b0]'>
-      <a className='flex justify-between items-center w-full hover:text-gray-100 text-gray-300' href='https://x.com/nlbsrn'>
+      <a target="_blank" rel="noopener noreferrer" className='flex justify-between items-center w-full hover:text-gray-100 text-gray-300' href='https://x.com/nlbsrn'>
        <FaTwitter size={30} />
       </a>
     </li>
@@ -158,17 +158,17 @@ const Navbar = () => {
 <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
   <ul>
     <li className='w-[160px] h-[60px] m-1 rounded-md flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-      <a className='flex justify-between items-center w-full text-gray-300' href='https://www.linkedin.com/in/anılbaşaran/'>
+      <a target="_blank" rel="noopener noreferrer" className='flex justify-between items-center w-full text-gray-300' href='https://www.linkedin.com/in/anılbaşaran/'>
         Linkedin <FaLinkedin size={30} />
       </a>
     </li>
     <li className='w-[160px] h-[60px] m-1 rounded-md flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-      <a className='flex justify-between items-center w-full text-gray-300' href='https://github.com/AnilBASARAN'>
+      <a target="_blank" rel="noopener noreferrer" className='flex justify-between items-center w-full text-gray-300' href='https://github.com/AnilBASARAN'>
         Github <FaGithub size={30} />
       </a>
     </li>
     <li className='w-[160px] h-[60px] m-1 rounded-md flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-      <a className='flex justify-between items-center w-full text-gray-300' href='https://x.com/nlbsrn'>
+      <a target="_blank" rel="noopener noreferrer" className='flex justify-between items-center w-full text-gray-300' href='https://x.com/nlbsrn'>
         Twitter <FaTwitter size={30} />
       </a>
     </li>
