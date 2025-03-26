@@ -57,7 +57,7 @@ const Navbar = () => {
   </a>
 </li> */}
 <li>
-  <a href="https://drive.google.com/file/d/1Bmr7d6GNUk6CzKtUyv6z729k19MXrGa_/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+  <a href="https://drive.google.com/file/d/1pCnKV66wuZe6m-nhKhYXHT8AJG1fnCyg/view?usp=sharing" target="_blank" rel="noopener noreferrer">
     CV
   </a>
 </li>
@@ -132,7 +132,7 @@ const Navbar = () => {
   <li className='py-6 text-3xl text-center'>
   <a
     onClick={handleClick}
-    href="https://drive.google.com/file/d/1Qz1t9Y19bejJoCKKa7iS6Xq0hHERW-Rt/view?usp=sharing"
+    href="https://drive.google.com/file/d/1pCnKV66wuZe6m-nhKhYXHT8AJG1fnCyg/view?usp=sharing"
     target='_blank'  // Opens the link in a new tab
     rel='noopener noreferrer'  // Adds security when opening a new tab
   >
