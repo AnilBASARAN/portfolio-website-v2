@@ -18,7 +18,7 @@ const Projects = () => {
             <p className='py-6'>* Because it uses a live server it takes 45-60 seconds to open</p>
             <p className='py-6'>* You need to be logged in to see the plantApp,</p>
             <p className='py-6'>* If you don’t want to create an account,</p>
-            <p className='py-6'>* Use ID = "asdasd" and password = "123123"</p>
+            <p className='py-6'>* Use username = "asdasd" and password = "123123"</p>
           </div>
         </div>
 
