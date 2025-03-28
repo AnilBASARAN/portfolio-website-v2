@@ -14,10 +14,10 @@ const Projects = () => {
             Projects
           </p>
           <div className='flex flex-col md:justify-between md:flex-col'>
-            <p className='py-6'>* NOTE: For todo app, Opening the app is not instant , Vercel is optimized for frontend applications, but it does support backend APIs, Because of cold starts; if API isn't used frequently , it may take longer to respond initially</p>
-            <p className='py-6'>* You need to be logged in to see the plantApp,</p>
-            <p className='py-6'>* If you don’t want to create an account,</p>
-            <p className='py-6'>* Use username = "asdasd" and password = "123123"</p>
+            <p className='py-6'>* NOTES for the Projects: </p>
+            <p className='py-6'>- For todo app, opening the app is not instant , Vercel is optimized for frontend applications, but it does support backend APIs, Because of cold starts; if API isn't used frequently , it may take longer to respond initially,</p>
+            <p className='py-6'>- You need to be logged in to see the plantApp,If you don’t want to create an account. You can use dummy credentials; <br/> username = "asdasd" and password = "123123"</p>
+            <p className='py-6'></p>
           </div>
         </div>
 
