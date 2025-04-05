@@ -9,6 +9,7 @@ import Github from "./components/Github";
 import Work from "./components/Work";
 import References from "./components/References";
 
+//TODO: add language english / turkish optionality like an switch on / off button
 
 function App() {
   return (
